@@ -10,8 +10,6 @@
 
 .navbar {
 	background-color: #8e6e53;
-	display: flex;
-	justify-content: space-between;
 }
 
 .navbar a {
@@ -21,4 +19,63 @@
 
 .navbar a:hover {
 	color: #ffffff;
+}
+
+.logo-container {
+	width: 75%;
+}
+
+.logo-container img {
+	width: 100%;
+}
+
+.text-container {
+	width: 75%;
+	text-align: center;
+}
+
+.text-container h1 {
+	color: #1f5247;
+	font-size: 2.5em;
+}
+
+.text-container p {
+	margin-top: 50px;
+	color: #1f5247;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.btn-container {
+	gap: 2em;
+}
+.btn-container .btn-primary {
+	background-color: #1f5247;
+	border: none;
+}
+
+.btn-container .btn-secondary {
+	background-color: #77a384;
+	border: none;
+}
+
+.footer {
+	margin-top: 5em;
+	background-color: #8e6e53;
+}
+
+.footer span {
+	color: #ffffff;
+}
+
+.footer ul {
+	margin-right: 25px;
+}
+
+@media (width < 321px) {
+	.footer {
+		align-items: center;
+		text-align: center;
+	}
+	
 }
