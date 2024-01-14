@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* Reglas generales // General rules */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", "sans-serif";
+}
+
+.navbar {
+	background-color: #8e6e53;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar a {
+	font-size: 1.5em;
+	color: #ffffff;
+}
+
+.navbar a:hover {
+	color: #ffffff;
+}
