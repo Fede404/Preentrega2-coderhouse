@@ -22,7 +22,7 @@
 }
 
 .logo-container {
-	width: 75%;
+	width: 100%;
 }
 
 .logo-container img {
@@ -30,19 +30,20 @@
 }
 
 .text-container {
-	width: 75%;
+	margin-top: 2em;
+	width: 100%;
 	text-align: center;
 }
 
 .text-container h1 {
 	color: #1f5247;
-	font-size: 2.5em;
+	font-size: 1.5em;
 }
 
 .text-container p {
-	margin-top: 50px;
+	margin-top: 1em;
 	color: #1f5247;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 300;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .btn-container .btn-secondary {
-	background-color: #77a384;
+	background-color: #1f5247;
 	border: none;
 }
 
@@ -72,10 +73,14 @@
 	margin-right: 25px;
 }
 
-@media (width < 321px) {
-	.footer {
-		align-items: center;
-		text-align: center;
+@media (min-width: 540px) {
+	.logo-container img {
+		width: 50%;
 	}
-	
+	.text-container h1 {
+		font-size: 2em;
+	}
+	.text-container p {
+		font-size: 1.5em;
+	}
 }
