@@ -67,10 +67,6 @@ section {
 	margin-top: 1em;
 }
 
-.section2 .text-container {
-	width: 100%;
-	text-align: start;
-}
 
 section img {
 	display: none;
@@ -79,13 +75,31 @@ section img {
 	border-radius: 10px;
 }
 
+.section2 .text-container {
+	width: 100%;
+	text-align: start;
+}
+
+
+.section3 h1 {
+	text-align: center;
+	color: #1f5247;
+	font-size: 1.5em;
+}
+
+.carousel-item h5 {
+	font-size: 1.5em;
+}
+
 .img-container {
 	display: none;
 }
+
 .btn-container {
 	margin-top: 2em;
 	gap: 5em;
 }
+
 .btn-container .btn {
 	background-color: #1f5247;
 	border: none;
@@ -123,6 +137,12 @@ section img {
 	.btn-container .btn {
 		font-size: 1.5em;
 		padding: 10px 40px;
+	}
+	.section3 {
+		margin: 2.5em 0;
+	}
+	.section3 h1 {
+		font-size: 2em;
 	}
 }
 
