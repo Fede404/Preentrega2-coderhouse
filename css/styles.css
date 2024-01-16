@@ -48,32 +48,40 @@
 }
 
 .text-container p {
-	margin-top: 1em;
+	margin: auto;
 	color: #1f5247;
 	font-size: 1em;
 	font-weight: 300;
+}
+
+.text-container .btn {
+	background-color: #1f5247;
+	width: 100%;
+}
+
+.text-container .btn:hover {
+	background-color: #1f7247;
 }
 
 section {
 	margin-top: 1em;
 }
 
+.section2 .text-container {
+	width: 100%;
+	text-align: start;
+}
+
 section img {
 	display: none;
 	width: 100%;
-	margin-bottom: 5em;
+	margin: auto;
 	border-radius: 10px;
 }
 
 .img-container {
 	display: none;
 }
-
-section .text-container {
-	width: 100%;
-	text-align: start;
-}
-
 .btn-container {
 	margin-top: 2em;
 	gap: 5em;
