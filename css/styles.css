@@ -87,6 +87,10 @@ section img {
 	font-size: 1.5em;
 }
 
+.carousel {
+	display: none;
+}
+
 .carousel-item h5 {
 	font-size: 1.5em;
 }
@@ -110,6 +114,23 @@ section img {
 	background-color: #1f7247;
 }
 
+.dest-container {
+	display: flex;
+}
+
+.img {
+	margin-top: 2em;
+	color: #1f5247;
+}
+
+.img img {
+	width: 50%;
+}
+
+.img h5 {
+	margin-top: 0.5em;
+}
+
 /* FOOTER */
 .footer {
 	margin-top: 1em;
@@ -117,6 +138,7 @@ section img {
 }
 
 .footer span {
+	text-align: center;
 	color: #ffffff;
 }
 
@@ -152,5 +174,11 @@ section img {
 	}
 	.img-container {
 		display: flex;
+	}
+	.carousel {
+		display: block;
+	}
+	.dest-container {
+		display: none;
 	}
 }
