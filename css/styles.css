@@ -75,10 +75,18 @@
 .section1 .btn-container button {
 	font-size: 1em;
 }
+.section1 .btn-container button a {
+	text-decoration: none;
+	color: #ffffff;
+}
 
 .section2 {
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+.section2 button a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .section2-p, .section2-h1{
@@ -99,6 +107,11 @@
 
 .section3 .btn-container button {
 	font-size: 1em;
+}
+
+.section3 .btn-container button a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .carousel {
@@ -132,6 +145,10 @@
 .section4 .btn {
 	background-color: #1f5247;
 	width: 100%;
+}
+.section4 button a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 
@@ -187,13 +204,19 @@
 .section5 .form-container .row {
 	margin-top: 1em;
 }
+
 .form-container .form-control {
 	height: 4em;
 }
+
 .section5 .btn {
 	background-color: #1f5247;
 	width: 100%;
 	margin-top: 2em;
+}
+
+.section5 .btn:hover {
+	background-color: #1f7247;
 }
 
 /* FOOTER */
