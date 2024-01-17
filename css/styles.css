@@ -75,9 +75,9 @@ section img {
 	border-radius: 10px;
 }
 
-.section2 .text-container {
+.section2-p, .section2-h1{
 	width: 100%;
-	text-align: start;
+	text-align: center;
 }
 
 
@@ -171,6 +171,10 @@ section img {
 @media (min-width: 992px) {
 	section img {
 		display: flex;
+	}
+	.section2-p, .section2-h1{
+		width: 100%;
+		text-align: start;
 	}
 	.img-container {
 		display: flex;
