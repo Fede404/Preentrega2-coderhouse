@@ -87,6 +87,23 @@ section img {
 	font-size: 1.5em;
 }
 
+.section3 .card-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+}
+
+.section3 .card {
+	width: 100%;
+	margin: 1em;
+}
+
+.section3 .btn {
+	background-color: #1f5247;
+	width: 25%;
+}
+
 .carousel {
 	display: none;
 }
@@ -165,6 +182,9 @@ section img {
 	}
 	.section3 h1 {
 		font-size: 2em;
+	}
+	.section3 .card-container {
+		flex-direction: row;
 	}
 }
 
