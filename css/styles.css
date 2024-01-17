@@ -172,11 +172,15 @@ section img {
 	section img {
 		display: flex;
 	}
-	.section2-p, .section2-h1{
+	.section2 {
+		margin: 1em 0;
+	}
+	.section2-p {
 		width: 100%;
 		text-align: start;
 	}
 	.img-container {
+		margin: 1em 0;
 		display: flex;
 	}
 	.carousel {
